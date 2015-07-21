@@ -3,8 +3,10 @@ require_relative "Bike"
 class DockingStation
 
 def release_bike
+	fail 'No bikes available'
+end
 
-	Bike.new
+def dock(bike)
 
 end
 
